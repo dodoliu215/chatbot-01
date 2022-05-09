@@ -26,10 +26,6 @@ df-messenger {
   --df-messenger-input-font-color: #000000;
   /* --df-messenger-chip-border-color: #fac421; */
 
-/*   margin: 0;
-  padding: 0;
   position: fixed;
-  transform: translateX(50%) translateY(50%);
-  right: 20px;
-  bottom: var(--bottomValue); */
+  bottom: var(--bottomValue);
 }
