@@ -87,7 +87,7 @@
             //更新寬高
             $r2 = $r1.shadowRoot.querySelector("df-messenger-chat");
             var sheet = new CSSStyleSheet;
-            sheet.replaceSync( `div.chat-wrapper[opened="true"] { width:${window.innerWidth * 0.88}px; height:${window.innerHeight * 0.8}px }`);
+            sheet.replaceSync( `div.chat-wrapper[opened="true"] { width:${window.innerWidth * 0.95}px; height:${window.innerHeight * 0.8}px }`);
             $r2.shadowRoot.adoptedStyleSheets = [ sheet ];
 
             //更新底部
