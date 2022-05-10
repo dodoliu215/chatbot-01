@@ -76,7 +76,7 @@
             var sheet = new CSSStyleSheet;
 
             // manage box height from here
-            sheet.replaceSync( `div.chat-wrapper[opened="true"] { width:${window.innerWidth - 150}px; height:${window.innerHeight - 150}px }`);
+            sheet.replaceSync( `div.chat-wrapper[opened="true"] { width:${window.innerWidth * 0.95}px; height:${window.innerHeight * 0.8}px }`);
             $r2.shadowRoot.adoptedStyleSheets = [ sheet ];
             });
         });
